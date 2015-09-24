@@ -8,6 +8,7 @@ deploy:
   app: mysterious-mesa-5736
   on:
     repo: yuya-painapo/rails_enpit
+    branch: master
 addons:
   postgresql: "9.3"
 before_script:
