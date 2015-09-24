@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+- 2.2.2
+- 1.9.3
+- jruby-19mode
+- rbx-2
+deploy:
+  provider: heroku
+  api_key:
+    secure: TqNLtP49j/MtUfImJLvcFdGX0+DWBPoY4QRFkY9mvz1xnco7YbqDIA45ueVDp9LO+CP09h9lwhHRxhes5XKq6LHrAaT7r7raSCuVmFrGSLoFIM9H/HjRTnL6HmhVqZuc6eyyqrzYwv1zPESNYBKGQd/vXq5bsn9ixCsOvSucYX1gl9VUzupQoyhAED6efA4HtZzrKSiT9DjqzGL21dG6A5UW1OPFGDHGN2aXNzrH922GQzKeXgaGK+ZKW99hL1+T8BdKhY9wJNa6LPMEeqgwSuiiOLYSN1G8C113oKV7clBcWX3eqWU0PpIZrXW83o7Ok5BsGH5T09VWaqAI2wYItCn2Hp8nZUDFAwHDbtUi+QZXxxIyTtY4dFh2eSskM1ZMVVTMlyJfUa72mJRV94T84qkVuAyovcCvkcYmk9iWW8z4u7SsDV8rN+Mq0Hx1avzDcAxmXVeZVP59RdDO21cOBZFU8lxXA8iL3IjyCZczUyyOQTIdjSIvADC6TW7ZGesuk50u+R+QUM6B8MrFMKkDGTfzUWzn3WA+eicgaq0JI+QXwC+ylnTr5Sf66xhcYoiDVXk+25I7Nn85nd4MucO5eClDDSb5dcl4wv8wezEl7MdkZSmmCeuji+B9kLZitjUvD+MkCgWyEW4pa/Wq8dxXyKS/VR2msV1xIqMJfOlwj7E=
+  app: mysterious-mesa-5736
+  on:
+    repo: yuya-painapo/rails_enpit
